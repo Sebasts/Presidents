@@ -60,7 +60,9 @@ public class PresidentsServlet extends HttpServlet {
 
 	@Override
 	public void init() throws ServletException {
+		
 		president = new PresidentsDaoImpl(this.getServletContext());
+		
 	}
 	
 	
